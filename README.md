@@ -5,7 +5,7 @@ Runs a simple nest.js api in Google Cloud Run
 ### Branches
  
 All git branches are merged into master
-
+ 
 - rock/run-in-cloud - the basic nest app running with a default controller and a process.env dump
 - rock/set-env-from-deploy - set NODE_ENV to develop for local development and set it to production on Cloud Run
 - rock/firestore - add firebase usable from development environment and from Cloud Run
